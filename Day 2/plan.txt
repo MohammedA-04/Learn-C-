@@ -1,0 +1,23 @@
+
+file: 
+* 8 user input 
+* 9 math functions
+
+file:
+* 10 hypotunese calculator
+
+file:
+* 11 if statement 
+* 12 swithces
+* 14 ternary
+
+file:
+* 13 console calculator
+
+file:
+* 16 tem conversion
+
+file: 
+* 17 use string methods
+* 182~2 while do while for loops break and contine nested 
+
