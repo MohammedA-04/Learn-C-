@@ -23,8 +23,31 @@ int main()
     return 0;
 }
 
+/* sorting method
+
+    * array: {1, 3, 2, 4};
+    * for i stop at 3 (size-1);
+    * for each i iteration stop at 2 (s1-1)
+
+    # Pass One
+    [j:0][j+1:1] j(1) > j(3): false
+    [j:1][j+1:2] j(3) > j(2): true, {1,2,3,4}
+    [j:2][J+1:3] j(3) > j(4): false
+
+    # Pass Two, [i == 1]
+    [j:0][j+1:1] j(1) > j(2): false
+    [j:1][j+1:2] j(2) > j(3): false
+
+    # Pass Three, [i == 2]
+    [j:0][j+1:1] j(1) > j(2): false
+
+
+
+ */
 void sort(int array[], int size)
 {
+    // OUTERLOOP: to loop all contnents
+    // INNERLOOP: to compare j to j+1 until (sz - idx) -1
 
     int tmp;
     for (int i = 0; i < size - 1; i++)
